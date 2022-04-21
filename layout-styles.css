@@ -1,0 +1,36 @@
+.jumbotron {
+  color: white;
+  background-image: url("hsv.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: pink;
+  margin-top: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 14px 110px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #9500C8;
+  color: gold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9500C8;
+  color: white;
+}
